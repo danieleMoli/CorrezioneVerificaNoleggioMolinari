@@ -22,4 +22,7 @@ export class DrivingListComponent implements OnInit {
   {
     this.driveList= auto;
   }
+onNoleggia(auto : Drive){
+console.log(auto);
+}
 }
